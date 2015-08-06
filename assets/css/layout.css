@@ -53,20 +53,36 @@
     padding-right: 1.5em;
 }
 
+.container-narrow {
+    max-width: 34em;
+    background: yellow;
+}
+
+.container-medium {
+    max-width: 52em;
+    background: green;
+}
+
+.container-wide {
+    max-width: 58;
+    background: lime;
+}
+
 /*columns*/
 
 /*-------------------------------wide------------------------------------------*/
 
 @media (min-width: 38em) {
-.row-padding-medium {
-    padding-top: 3.8889em;
-    padding-bottom: 3.8888em;
-    /*70px/18px*/
+    .row-padding-medium {
+        padding-top: 3.8889em;
+        padding-bottom: 3.8888em;
+        /*70px/18px*/
+    }
+
+    .row-padding-wide {
+        padding-top: 5.5556em;
+        padding-bottom: 5.5556em    ;
+        /*100px/18x*/
+    }
 }
 
-.row-padding-wide {
-    padding-top: 5.5556em;
-    padding-bottom: 5.5556em    ;
-    /*100px/18x*/
-}
-}

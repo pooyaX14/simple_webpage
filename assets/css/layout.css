@@ -84,5 +84,11 @@
         padding-bottom: 5.5556em    ;
         /*100px/18x*/
     }
+    .container-narrow,
+    .container-medium,
+    .container-wide {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }
 

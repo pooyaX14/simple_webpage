@@ -26,10 +26,6 @@
     background:#282e37;
 }
 
-.row--banner {
-    background: #aaa;
-}
-
 /*row-paddings*/
 
 .row-padding-medium {
@@ -56,30 +52,22 @@
 
 .container-narrow {
     max-width: 34em;
-    background: yellow;
 }
 
 .container-medium {
     max-width: 52em;
-    background: green;
 }
 
 .container-wide {
     max-width: 58;
-    background: lime;
 }
 
 /*------------------------set up columns-------------------------------------*/
 
-.col-narrow { background: pink; }
-.col-narrow--right { background: pink; }
-.col-medium { background: #667; }
-.col-wide { background: #78a; }
-.col-wide--right { background: #78a; }
+
 .col-narrow,
 .col-narrow--right { margin-bottom: 1.5em; }
-/*.col-wide,
-.col-wide--right { margin-bottom: 1.5em; }*/
+
 
 /*-------------------------------wide------------------------------------------*/
 
